@@ -1,0 +1,65 @@
+{
+  "name": "Auto-Forward-Bot",
+  "description": "Telegram's Best Smart Plugin File Forward Bot",
+  "keywords": [
+    "telegram",
+    "best",
+    "file",
+    "forward",
+    "bot"
+  ],
+  "repository": "https://github.com/Snowball-0/SimpleForwardBot-Tg",
+  "env": {
+    "API_ID": {
+      "description": "Get this value from https://my.telegram.org or @UseTGXBot",
+      "value": "",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Get this value from https://my.telegram.org or @UseTGXBot",
+      "value": "",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Your bot token from @BotFather",
+      "value": "",
+      "required": true
+    },
+    "TO_CHANNEL": {
+      "description": "Enter Your channel Id must add Eg:- -100xxxxxxxxx",
+      "value": "",
+      "required": true
+    },
+    "LOG_CHANNEL":{
+      "description": "Enter your log Channel id must start with (-100)",
+      "value": "",
+      "required": true
+    },
+    "FORCE_SUB":{
+      "description": "Enter your Force Sub Channel or Group id must starts with (-100)",
+      "value": "",
+      "required": true
+    },
+    "DATABASE_URI": {
+      "description": "Get this from cloud.mongodb.com",
+      "value": "",
+      "required": true
+    },
+    "OWNER_ID": {
+      "description": "Enter Your Telegram id",
+      "value": "",
+      "required": true
+    },
+    "SESSION": {
+      "description": "Pyrogram string Session https://t.me/string_session_generator_658_bot",
+      "value": "",
+      "required": true
+    }
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "eco"
+    }
+  }
+}
