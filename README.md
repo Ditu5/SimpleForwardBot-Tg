@@ -16,16 +16,6 @@ this bot, and our personal chat will be safe and clean.
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Snowball-0/SimpleForwardBot-Tg)
 
 
-
-### 💠 USAGE
-
-- Users can pm to the bot via text or media messages.
-- Bot will send the message to the admin user id as pm.
-- Admin need to reply as **reply to the message** received in the bot (Text & Media)
-- The replied message will be sent to the user as pm in the bot.
-- Command ```/info``` as a reply to any chat received will give the basic info about the Pm user.(Admin Only)
-
-
 ### 💠 Bot Commands 
 
 ```
