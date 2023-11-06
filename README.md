@@ -30,16 +30,12 @@ this bot, and our personal chat will be safe and clean.
 
 ```
 # User Commmands
-/start or /help- Start Message
+start- Start Message
 
 # Admin Commmands
-/info - Basic Information about the user
-
-#vars
-TG_BOT_TOKEN - Your Bot Token
-APP_ID - Your APP ID
-API_HASH - Your API Hash
-ADMIN - Admin User Id.
+stats - To get Stats of Bot
+broadcast - To brodcast to the users
+restart - To restart the bot
 
 ```
 
