@@ -1,11 +1,6 @@
 # 🤖 Simple Forward Bot 🤖
 A Simple Bot that can be used as a personal assistant for forwarding any message even restricted content.
 
-### 💠 HELP
-In the busy schedules of Noobs, it can't accept receiving Personal messages from unwanted or unnecessary
-users all time. This bot is a solution for the problem. All the personal messages can be managed through
-this bot, and our personal chat will be safe and clean.
-
 
 ### Deploying on Heroku:
 
