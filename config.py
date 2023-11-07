@@ -25,7 +25,7 @@ class Config:
     AUTH_CHANNEL = int(FORCE_SUB) if FORCE_SUB and id_pattern.search(
     FORCE_SUB) else None 
     BOT_USERNAME = os.environ.get('BOT_USERNAME', "") # No need if you don't want to auto forward when bot restarted
-    SESSION = os.environ.get('SESSION', '')
+    SESSION = os.environ.get('SESSION', '') # ⚠️ Required 
 
     # Web Support 
     WEBHOOK = bool(os.environ.get("WEBHOOK", True)) # for web support on/off
