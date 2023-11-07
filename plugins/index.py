@@ -33,6 +33,8 @@ async def run(bot, message):
         except TimeoutError:
             await bot.send_message(message.from_user.id, "Error!!\n\nRequest timed out.\nRestart by using /index")
             return
+        except Exception as e:
+          print(e)
 
         pattern=".*https://t.me/.*"
         result = re.match(pattern, channel, flags=re.IGNORECASE)
