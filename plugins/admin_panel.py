@@ -8,7 +8,7 @@ import os, sys, time, asyncio, logging, datetime
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
  
-@Client.on_message(filters.command(["stats", "status"]) & filters.user(Config.OWNER_ID))
+@Client.on_message(filters.command("stats") & filters.user(Config.OWNER_ID))
 async def get_stats(bot, message):
     total_users = await userDb.total_users_count()
     uptime = time.strftime("%Hh%Mm%Ss", time.gmtime(time.time() - Config.BOT_UPTIME))    
