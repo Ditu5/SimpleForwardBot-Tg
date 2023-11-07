@@ -15,6 +15,8 @@ from pytz import timezone
 from datetime import datetime
 from plugins import web_server
 from user import User
+import pyromod.listen
+
 
 
 logging.config.fileConfig('logging.conf')
